@@ -119,6 +119,10 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## Incoming features
+
+A basic front end made with [Moralis](https://moralis.io) for easier interaction with the contract.
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
