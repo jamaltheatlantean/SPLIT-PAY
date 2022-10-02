@@ -19,7 +19,7 @@
   <p align="center">
     A contract to help you split your pay with your team
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/jamaltheatlantean/SPLIT-PAY"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
