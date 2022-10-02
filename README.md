@@ -111,8 +111,6 @@ ii.) Partnering up with a person for the first time and don't trust him/her/them
 iii.) If you don't want to have to do the maths of calculating how to pay a group of people you hired, register their account in the contract, deploy it and worry less.                                                                                                                                              
 _And so many more use cases..._
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
