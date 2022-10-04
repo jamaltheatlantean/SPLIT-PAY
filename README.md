@@ -60,7 +60,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This contract was created for the sole purpose of team collaborations. As a team, its unecessary to send your client or employer the address of every individual on the team. This contracts stores the address of all team members in the contract address. This contract is designed to automatically activate immediately it receives Ether. It divides the value of the Ether (or any other native blockchain currency) by the number of addresses saved in it and transfers the shares evenly to the address of every team member.
+This contract was created for the sole purpose of team collaborations. As a team, there are situations where it might be quite unecessary to send your client or employer the address of every individual on the team. So this contract is designed to store the address of all team members in the contract address. It is also designed to automatically activate immediately it receives Ether and then evenly divide the value of the Ether (or any other native blockchain currency), by the number of addresses saved in it as shares. Each addres in the contract is then sent the even share.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
