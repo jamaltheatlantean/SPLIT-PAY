@@ -118,7 +118,7 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 ## Incoming features
 
-A basic front end made with [Moralis](https://moralis.io) for easier interaction with the contract.
+A basic front end made with React and [Moralis](https://moralis.io) for easier interaction with the contract.
 
 
 <!-- CONTRIBUTING -->
