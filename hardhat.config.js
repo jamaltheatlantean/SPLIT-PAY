@@ -3,11 +3,11 @@ require("@nomicfoundation/hardhat-chai-matchers");
 require("dotenv").config()
 require("hardhat-deploy")
 
-/** @type import('hardhat/config').HardhatUserConfig */
-
-
 const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL 
 const PRIVATE_KEY = process.env.PRIVATE_KEY
+
+/** @type import('hardhat/config').HardhatUserConfig */
+
 
 module.exports = {
     defaultNetwork: "hardhat",
