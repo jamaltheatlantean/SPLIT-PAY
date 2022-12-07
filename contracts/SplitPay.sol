@@ -7,6 +7,9 @@ error SplitPay__NotOwner();
 
 
 contract SplitPay {
+
+    // ---> Events <---
+    
     event PaymentRecieved(address _from, uint _amount);
     event PayeeAdded(address account, uint shares);
 
