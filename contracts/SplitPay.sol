@@ -12,7 +12,8 @@ contract SplitPay {
     
     event PaymentRecieved(address _from, uint _amount);
     event PayeeAdded(address account, uint shares);
-
+    
+    // ---> State Variables <---
     address payable [] public payees;
     address payable public owner;
 
