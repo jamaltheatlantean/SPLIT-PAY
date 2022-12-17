@@ -5,7 +5,6 @@ pragma solidity ^0.8.7;
 // ---> Error <---
 error SplitPay__NotOwner();
 
-
 contract SplitPay {
 
     // ---> Events <---
