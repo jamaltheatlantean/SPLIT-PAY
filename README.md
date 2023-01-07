@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="[https://github.com/github_username/repo_name](https://github.com/jamaltheatlantean/SPLIT-PAY/)">
+  <a href="[https://github.com/jamaltheatlantean/SPLIT-PAY](https://github.com/jamaltheatlantean/SPLIT-PAY/)">
   </a>
 
 <h3 align="center">SPLIT-PAY</h3>
@@ -22,9 +22,9 @@
     <a href="https://github.com/jamaltheatlantean/SPLIT-PAY"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/SPLIT-PAY/issues">Report Bug</a>
+    <a href="https://github.com/jamaltheatlantean/SPLIT-PAY/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_usernameSPLIT-PAY/issues">Request Feature</a>
+    <a href="https://github.com/jamaltheatlantean/SPLIT-PAY/issues">Request Feature</a>
   </p>
 </div>
 
@@ -111,7 +111,7 @@ iii.) If you don't want to have to do the maths of calculating how to pay a grou
 _And so many more use cases..._
 
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/jamaltheatlantean/SPLIT_PAY) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
