@@ -33,7 +33,6 @@ contract SplitPay {
         for(uint i; i < payees.length; i++) {
             payees[i].transfer(share);
         }
-
         emit PaymentRecieved(msg.sender, msg.value);
     }
 
