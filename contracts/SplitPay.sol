@@ -15,12 +15,12 @@ contract SplitPay {
     // ---> State Variables <---
     address payable [] public payees;
     address payable public owner;
-
+    
+    // ---> Modofier <---
     modifier onlyOwner() {
         if(msg.sender != owner) revert SplitPay__NotOwner();
         _;
     }
-
 
     constructor() {
         owner = payable(msg.sender);
