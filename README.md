@@ -121,6 +121,7 @@ See the [open issues](https://github.com/jamaltheatlantean/SPLIT_PAY) for a full
 A basic front end made with React and [Moralis](https://moralis.io) for easier interaction with the contract.
 
 
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -146,6 +147,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+##To Do
+Award members with ATN20 tokens.
+Witre function to evict troubesome member on a secret 80-100 
+Create a front end.
 
 
 <!-- CONTACT -->
