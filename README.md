@@ -147,7 +147,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-##To Do
+##  To Do
 Award members with ATN20 tokens.
 Witre function to evict troubesome member on a secret 80-100 
 Create a front end.
