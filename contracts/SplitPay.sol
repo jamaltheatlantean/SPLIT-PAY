@@ -24,7 +24,6 @@ contract SplitPay {
         _;
     }
     
-
     constructor(uint _numOfConfirmations, address payable [] memory _payees) {
         require(_numOfConfirmations > 0, "error: invalid number of required confirmations");
         for (uint i = 0; i < _payees.length; i++) {
