@@ -24,6 +24,7 @@ contract SplitPay {
         _;
     }
     
+
     constructor(uint _numOfConfirmations, address payable [] memory _payees) {
         require(_numOfConfirmations > 0, "error: invalid number of required confirmations");
         for (uint i = 0; i < _payees.length; i++) {
@@ -38,6 +39,7 @@ contract SplitPay {
         numOfConfirmations = _numOfConfirmations;
     }
 
+    /* PUBLIC FUNCTIONS */
     function addPayee(address payable _payee) public onlyPayees {
         require(_payee != address(0), "error: invalid address");
         require(isPayee[_payee] != true, "error: payee already exists");
