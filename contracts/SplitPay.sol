@@ -56,6 +56,8 @@ contract SplitPay {
 
     function removePayee(address _payeeToRemove) public onlyPayees {
         require(votedToRemove[msg.sender] != true, "error: already voted to remove");
+        approvalToRemove += 1;
+        votedToRemove[msg.sender] = true;
         if(approvalToRemove >= numOfConfirmations) {
         address payable[] memory newPayees = new address payable [](payees.length - 1);
         uint j = 0;
@@ -68,8 +70,6 @@ contract SplitPay {
         payees = newPayees;
         isPayee[_payeeToRemove] = false;
         }
-        approvalToRemove += 1;
-        votedToRemove[msg.sender] = true;
 
         // emit event
         emit PayeeRemoved(_payeeToRemove, block.timestamp);
