@@ -53,26 +53,25 @@ contract SplitPay {
         // emit event
         emit PayeeAdded(_payee, block.timestamp);
     }
-
+    
     function removePayee(address _payeeToRemove) public onlyPayees {
         require(votedToRemove[msg.sender] != true, "error: already voted to remove");
         approvalToRemove += 1;
         votedToRemove[msg.sender] = true;
         if(approvalToRemove >= numOfConfirmations) {
-        address payable[] memory newPayees = new address payable [](payees.length - 1);
-        uint j = 0;
-        for(uint i = 0; i < payees.length; i ++) {
-            if(payees[i] != _payeeToRemove) {
-                newPayees[j] = payees[i];
-                j++;
+            address payable[] memory newPayees = new address payable [](payees.length - 1);
+            uint j = 0;
+            for(uint i = 0; i < payees.length; i ++) {
+                if(payees[i] != _payeeToRemove) {
+                    newPayees[j] = payees[i];
+                    j++;
+                }
             }
+            payees = newPayees;
+            isPayee[_payeeToRemove] = false;
+            // emit event
+            emit PayeeRemoved(_payeeToRemove, block.timestamp);
         }
-        payees = newPayees;
-        isPayee[_payeeToRemove] = false;
-        }
-
-        // emit event
-        emit PayeeRemoved(_payeeToRemove, block.timestamp);
     }
 
     receive() payable external {
