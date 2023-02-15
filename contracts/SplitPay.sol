@@ -44,14 +44,13 @@ contract SplitPay {
         require(isPayee[_payee] != true, "error: payee already exists");
         require(hasApproved[msg.sender] != true, "error: msg.sender has already approved");
         approvalCount += 1;
+        hasApproved[msg.sender] = true;
         if(approvalCount >= numOfConfirmations) {
             isPayee[_payee] = true;
             payees.push(_payee);
+            // emit event
+            emit PayeeAdded(_payee, block.timestamp);
         }
-
-        hasApproved[msg.sender] = true;
-        // emit event
-        emit PayeeAdded(_payee, block.timestamp);
     }
     
     function removePayee(address _payeeToRemove) public onlyPayees {
