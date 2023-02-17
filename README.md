@@ -107,9 +107,8 @@ But i understand that this project has grown beyond the use of receiving eth fro
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-i.) If you're a freelance developer who partners with other developers who put in an equal amount of effort to complete the project, this contract is for you.                                                                                                                                                        
-ii.) Partnering up with a person for the first time and don't trust him/her/them enough to use their address to collect the pay, this contract is for you.  
-iii.) If you don't want to have to do the maths of calculating how to pay a group of people you hired, register their account in the contract, deploy it and worry less.                                                                                                                                              
+i.) If you're a freelance developer in partnership with other developers who put in an equal amount of effort to complete the project, this contract is for you.                                                                                                                                                        
+ii.) If you don't want to have to do the maths of calculating how to pay a group of people you hired, register their account in the contract, deploy it and worry less.                                                                                                                                              
 _And so many more use cases..._
 
 
