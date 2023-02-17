@@ -119,8 +119,12 @@ See the [open issues](https://github.com/jamaltheatlantean/SPLIT_PAY) for a full
 
 ## Features
 
-- Splits payment made to it evenly between `payees`.
-- Add or remove `payees` through a multi-sig like system.
+- Splits payment made to the contract evenly between `payees`.
+- Add or remove new `payees` through a multi-sig like system.
+
+## Events
+- `PaymentReceived(uint indexed payload):` This event is emitted when funds are transfered to the contract. It emits the amount of funds that were transfered into the contract.
+- `PaymentReleased(uint indexed payLoad):`This event is emitted when the funds are transfered to the payees. It emits the amount of funds that were transfered out.
 
 
 ## Incoming features
