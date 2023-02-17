@@ -84,6 +84,7 @@ But i understand that this project has grown beyond the use of receiving eth fro
   npm install npm@latest -g
   ```
 
+
 ### Installation
 
 1. Get a free API Key at [https://alchemy.com](https://alchemy.com)
@@ -115,6 +116,11 @@ _And so many more use cases..._
 See the [open issues](https://github.com/jamaltheatlantean/SPLIT_PAY) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Features
+
+- Splits payment made to it evenly between `payees`.
+- Add or remove `payees` through a multi-sig like system.
 
 
 ## Incoming features
