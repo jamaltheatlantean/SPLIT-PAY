@@ -124,7 +124,9 @@ See the [open issues](https://github.com/jamaltheatlantean/SPLIT_PAY) for a full
 
 ## Events
 - `PaymentReceived(uint indexed payload):` This event is emitted when funds are transfered to the contract. It emits the amount of funds that were transfered into the contract.
-- `PaymentReleased(uint indexed payLoad):`This event is emitted when the funds are transfered to the payees. It emits the amount of funds that were transfered out.
+- `PaymentReleased(uint indexed payLoad)`:This event is emitted when the funds are transfered to the payees. It emits the amount of funds that were transfered out.
+- `PayeeAdded(address indexed _payee, uint timestamp)`: This event is emitted when a new payee is added to the array of payees. It emits the address and time.
+- `PayeeRemoved(address indexed _payee, uint timestamp)`: This event is emitted whenever a payee has been removed from the address of payee. It emits the address of the removed payee and timestamp.
 
 
 ## Incoming features
