@@ -7,7 +7,6 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -27,8 +26,6 @@
     <a href="https://github.com/jamaltheatlantean/SPLIT-PAY/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -55,8 +52,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -127,6 +122,11 @@ See the [open issues](https://github.com/jamaltheatlantean/SPLIT_PAY) for a full
 - `PaymentReleased(uint indexed payLoad)`:This event is emitted when the funds are transfered to the payees. It emits the amount of funds that were transfered out.
 - `PayeeAdded(address indexed _payee, uint timestamp)`: This event is emitted when a new payee is added to the array of payees. It emits the address and time.
 - `PayeeRemoved(address indexed _payee, uint timestamp)`: This event is emitted whenever a payee has been removed from the address of payee. It emits the address of the removed payee and timestamp.
+
+
+## Modifier
+The contract uses only one modifier
+`onlyPayees()`: This limits control of the addPayee and removePayee so only the addresses registered as payee can call them.
 
 
 ## Incoming features
