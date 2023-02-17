@@ -17,7 +17,7 @@
 <h3 align="center">SPLIT-PAY</h3>
 
   <p align="center">
-    A contract to help you split your pay with your team
+    A contract to help you split your pay with your friends/team/family.
     <br />
     <a href="https://github.com/jamaltheatlantean/SPLIT-PAY"><strong>Explore the docs »</strong></a>
     <br />
